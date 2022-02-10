@@ -71,4 +71,4 @@ sql_state=C_Spark.SQL(fun,'Quality_of_patient_care_star_rating',alias_name)
 
 s=spark.sql(sql_state)
 s.show()
-#C_Spark.OutPut(s,'test.csv',type='csv')
+C_Spark.OutPut(s,'test.csv',type='csv')
